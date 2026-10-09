@@ -3,11 +3,31 @@ Instructor workflow: set "enabled": true for a session to release it on the hub.
 import json
 from course import COURSE, MODULES, sessions
 
-REFS = {  # Module 1 references (others filled as modules are built)
+REFS = {  # one external reference per teaching session (verify links before each run)
     1: ("IMD: India Meteorological Department", "https://mausam.imd.gov.in/"),
-    2: ("India-WRIS: reservoir and water data portal", "https://indiawris.gov.in/"),
-    3: ("IMD Pune: rainfall data and normals", "https://imdpune.gov.in/"),
+    2: ("India-WRIS: water resources information system", "https://indiawris.gov.in/"),
+    3: ("IMD Pune: rainfall data services", "https://imdpune.gov.in/"),
     4: ("CWC flood forecasting portal", "https://ffs.india-water.gov.in/"),
+    6: ("India-WRIS: one portal for India's water data", "https://indiawris.gov.in/"),
+    7: ("NASA GPM IMERG: satellite rainfall", "https://gpm.nasa.gov/data/imerg"),
+    8: ("NASA POWER: data access", "https://power.larc.nasa.gov/"),
+    9: ("IMD Pune: gridded and station data", "https://imdpune.gov.in/"),
+    11: ("IMD: monsoon and rainfall reports", "https://mausam.imd.gov.in/"),
+    12: ("IMD: district rainfall and departures", "https://mausam.imd.gov.in/"),
+    13: ("IMD: weather warnings and terms", "https://mausam.imd.gov.in/"),
+    14: ("USGS: the 100-year flood explained", "https://www.usgs.gov/special-topics/water-science-school/science/100-year-flood"),
+    16: ("Central Water Commission", "https://cwc.gov.in/"),
+    17: ("CWC flood forecasting portal", "https://ffs.india-water.gov.in/"),
+    18: ("India-WRIS: reservoirs", "https://indiawris.gov.in/"),
+    19: ("NDMA: urban flooding", "https://ndma.gov.in/"),
+    21: ("IPCC AR6 WGI: Summary for Policymakers", "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/"),
+    22: ("Theil–Sen estimator (overview)", "https://en.wikipedia.org/wiki/Theil%E2%80%93Sen_estimator"),
+    23: ("IPCC AR6 WGI Chapter 11: weather and climate extremes", "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-11/"),
+    24: ("IPCC AR6 WGI: Summary for Policymakers", "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/"),
+    26: ("Datawrapper Academy", "https://academy.datawrapper.de/"),
+    27: ("FT Visual Vocabulary", "https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary"),
+    28: ("Looker Studio", "https://lookerstudio.google.com/"),
+    29: ("NASA POWER: citing the data", "https://power.larc.nasa.gov/"),
 }
 
 data = {
@@ -30,7 +50,7 @@ for s in sessions():
     base = f"notebooks/M{m}/WDL_M{m}_S{k:02d}"
     row = {
         "num": k, "module": m, "title": s["title"], "hook": s["hook"],
-        "workshop": s["workshop"], "enabled": m == 1,
+        "workshop": s["workshop"], "enabled": True,
         "sheet": "",  # paste the Google Sheets /copy link
     }
     if s["workshop"]:

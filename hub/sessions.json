@@ -148,7 +148,7 @@
         }
       ],
       "reference": {
-        "label": "India-WRIS: reservoir and water data portal",
+        "label": "India-WRIS: water resources information system",
         "url": "https://indiawris.gov.in/"
       }
     },
@@ -181,7 +181,7 @@
         }
       ],
       "reference": {
-        "label": "IMD Pune: rainfall data and normals",
+        "label": "IMD Pune: rainfall data services",
         "url": "https://imdpune.gov.in/"
       }
     },
@@ -246,7 +246,7 @@
       "title": "India's water data ecosystem",
       "hook": "Who measures India's water?",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -269,8 +269,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "India-WRIS: one portal for India's water data",
+        "url": "https://indiawris.gov.in/"
       }
     },
     {
@@ -279,7 +279,7 @@
       "title": "Stations, grids and satellites",
       "hook": "Same storm, three different numbers",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -302,8 +302,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "NASA GPM IMERG: satellite rainfall",
+        "url": "https://gpm.nasa.gov/data/imerg"
       }
     },
     {
@@ -312,7 +312,7 @@
       "title": "Downloading a rainfall dataset",
       "hook": "Your district's rainfall, decades back",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -335,8 +335,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "NASA POWER: data access",
+        "url": "https://power.larc.nasa.gov/"
       }
     },
     {
@@ -345,7 +345,7 @@
       "title": "Missing values, gaps and errors",
       "hook": "When a gauge goes quiet: the -999 problem",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -368,8 +368,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "IMD Pune: gridded and station data",
+        "url": "https://imdpune.gov.in/"
       }
     },
     {
@@ -378,7 +378,7 @@
       "title": "Workshop: Quality-check your district's data",
       "hook": "Lab 2 · quiz · capstone step 2",
       "workshop": true,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -400,7 +400,7 @@
       "title": "Totals, averages and the normal",
       "hook": "What does a \"normal monsoon\" mean?",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -423,8 +423,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "IMD: monsoon and rainfall reports",
+        "url": "https://mausam.imd.gov.in/"
       }
     },
     {
@@ -433,7 +433,7 @@
       "title": "Anomalies: excess and deficit",
       "hook": "Reading IMD's excess and deficit categories",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -456,8 +456,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "IMD: district rainfall and departures",
+        "url": "https://mausam.imd.gov.in/"
       }
     },
     {
@@ -466,7 +466,7 @@
       "title": "Extremes and intensity",
       "hook": "Heavy, very heavy, extremely heavy",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -489,8 +489,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "IMD: weather warnings and terms",
+        "url": "https://mausam.imd.gov.in/"
       }
     },
     {
@@ -499,7 +499,7 @@
       "title": "Return periods made simple",
       "hook": "Is a \"100-year storm\" really rare?",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -522,8 +522,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "USGS: the 100-year flood explained",
+        "url": "https://www.usgs.gov/special-topics/water-science-school/science/100-year-flood"
       }
     },
     {
@@ -532,7 +532,7 @@
       "title": "Workshop: Your district's rainfall profile",
       "hook": "Lab 3 · quiz · capstone step 3",
       "workshop": true,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -554,7 +554,7 @@
       "title": "Catchments and hydrographs",
       "hook": "Where does your rain go?",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -577,8 +577,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "Central Water Commission",
+        "url": "https://cwc.gov.in/"
       }
     },
     {
@@ -587,7 +587,7 @@
       "title": "From river level to river flow",
       "hook": "Danger level vs discharge",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -610,8 +610,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "CWC flood forecasting portal",
+        "url": "https://ffs.india-water.gov.in/"
       }
     },
     {
@@ -620,7 +620,7 @@
       "title": "Reservoirs and storage bulletins",
       "hook": "Reading a reservoir level report",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -643,8 +643,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "India-WRIS: reservoirs",
+        "url": "https://indiawris.gov.in/"
       }
     },
     {
@@ -653,7 +653,7 @@
       "title": "Floods: river, flash and urban",
       "hook": "Why cities flood without a big river",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -676,8 +676,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "NDMA: urban flooding",
+        "url": "https://ndma.gov.in/"
       }
     },
     {
@@ -686,7 +686,7 @@
       "title": "Workshop: Reconstruct a flood event",
       "hook": "Lab 4 · quiz · capstone step 4",
       "workshop": true,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -708,7 +708,7 @@
       "title": "Trend vs variability",
       "hook": "One wet year is not climate change",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -731,8 +731,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "IPCC AR6 WGI: Summary for Policymakers",
+        "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/"
       }
     },
     {
@@ -741,7 +741,7 @@
       "title": "How many years are enough?",
       "hook": "10 vs 30 vs 100 years of rainfall",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -764,8 +764,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "Theil–Sen estimator (overview)",
+        "url": "https://en.wikipedia.org/wiki/Theil%E2%80%93Sen_estimator"
       }
     },
     {
@@ -774,7 +774,7 @@
       "title": "Extremes, dry spells and droughts",
       "hook": "Fewer rainy days, heavier bursts?",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -797,8 +797,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "IPCC AR6 WGI Chapter 11: weather and climate extremes",
+        "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-11/"
       }
     },
     {
@@ -807,7 +807,7 @@
       "title": "Reading climate claims critically",
       "hook": "Fixing a misleading headline chart",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -830,8 +830,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "IPCC AR6 WGI: Summary for Policymakers",
+        "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/"
       }
     },
     {
@@ -840,7 +840,7 @@
       "title": "Workshop: Test your district's trend",
       "hook": "Lab 5 · quiz · capstone step 5",
       "workshop": true,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -862,7 +862,7 @@
       "title": "Honest charts",
       "hook": "Same data, two stories",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -885,8 +885,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "Datawrapper Academy",
+        "url": "https://academy.datawrapper.de/"
       }
     },
     {
@@ -895,7 +895,7 @@
       "title": "Choosing the right chart",
       "hook": "The right picture for rainfall",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -918,8 +918,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "FT Visual Vocabulary",
+        "url": "https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary"
       }
     },
     {
@@ -928,7 +928,7 @@
       "title": "Building a dashboard",
       "hook": "A one-page water story",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -951,8 +951,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "Looker Studio",
+        "url": "https://lookerstudio.google.com/"
       }
     },
     {
@@ -961,7 +961,7 @@
       "title": "Data stories and AI tools",
       "hook": "Explaining water to a panchayat or a newspaper",
       "workshop": false,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
@@ -984,8 +984,8 @@
         }
       ],
       "reference": {
-        "label": "",
-        "url": ""
+        "label": "NASA POWER: citing the data",
+        "url": "https://power.larc.nasa.gov/"
       }
     },
     {
@@ -994,7 +994,7 @@
       "title": "Capstone workshop and submission",
       "hook": "My District's Water Story · peer review",
       "workshop": true,
-      "enabled": false,
+      "enabled": true,
       "sheet": "",
       "videos": [
         {
