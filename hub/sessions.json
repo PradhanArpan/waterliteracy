@@ -1,0 +1,1014 @@
+{
+  "course": {
+    "code": "WDL",
+    "title": "Hydroinformatics in a Changing Climate: Water Data Literacy for All",
+    "short": "Water Data Literacy for All",
+    "dept": "Department of Civil Engineering",
+    "school": "School of Engineering and Technology",
+    "instructor": "Dr Arpan Pradhan",
+    "year": "2026-27",
+    "total_sessions": 30,
+    "hours": 30
+  },
+  "github": {
+    "user": "PradhanArpan",
+    "repo": "waterliteracy",
+    "branch": "main"
+  },
+  "quick_links": [
+    {
+      "label": "Google Colab",
+      "url": "https://colab.research.google.com/",
+      "dot": "teal"
+    },
+    {
+      "label": "GitHub repo",
+      "url": "https://github.com/PradhanArpan/waterliteracy",
+      "dot": "teal"
+    },
+    {
+      "label": "CuX course page",
+      "url": "https://mooc.christuniversity.in/my/courses.php",
+      "dot": "teal"
+    },
+    {
+      "label": "IMD rainfall",
+      "url": "https://mausam.imd.gov.in/",
+      "dot": "gold"
+    },
+    {
+      "label": "CWC flood forecasts",
+      "url": "https://ffs.india-water.gov.in/",
+      "dot": "gold"
+    },
+    {
+      "label": "India-WRIS",
+      "url": "https://indiawris.gov.in/",
+      "dot": "gold"
+    }
+  ],
+  "modules": [
+    {
+      "n": 1,
+      "title": "The Water Cycle as Data",
+      "co": "CO1",
+      "about": "What gets measured in the water cycle, by whom and how often: rain gauges, river gauges, reservoirs and satellites; rainfall depth as a volume of water; units used in water reporting (mm, m, m³/s, MCM, TMC, MLD, LPCD); time resolution of water records; reading rain and river gauge records."
+    },
+    {
+      "n": 2,
+      "title": "Finding and Trusting Water Data",
+      "co": "CO1, CO2",
+      "about": "India's water data ecosystem (IMD, CWC, India-WRIS, state portals, NASA GPM, ERA5); ground stations, gridded and satellite products; metadata; downloading a rainfall dataset; missing values, gaps, outliers and error flags; basic data quality checks."
+    },
+    {
+      "n": 3,
+      "title": "Reading Rainfall",
+      "co": "CO2, CO3",
+      "about": "Daily, monthly, seasonal and annual totals; long-period average and the monsoon normal; anomalies and IMD excess/deficit categories; rainfall intensity and IMD heavy-rainfall categories; extremes; return periods explained simply."
+    },
+    {
+      "n": 4,
+      "title": "Rivers, Reservoirs and Floods",
+      "co": "CO1, CO3",
+      "about": "Catchments and hydrographs; river stage and discharge; rating curves in simple terms; reservoir storage and bulletins; flood forecasts and warnings; river floods, flash floods and urban flooding."
+    },
+    {
+      "n": 5,
+      "title": "Climate Signals in Water Data",
+      "co": "CO3, CO4",
+      "about": "Trend versus variability; record length and confidence; moving averages; simple trend tests; changing extremes, dry spells and droughts; reading climate statements and spotting misleading charts and headlines."
+    },
+    {
+      "n": 6,
+      "title": "From Data to Dashboard",
+      "co": "CO5",
+      "about": "Principles of honest data visualisation; choosing the right chart; dashboard design in Looker Studio or Colab; writing a data story for decision-makers and the public; responsible use of AI tools with water data; capstone completion and peer review."
+    }
+  ],
+  "sessions": [
+    {
+      "num": 1,
+      "module": 1,
+      "title": "Water as a data problem",
+      "hook": "Monsoon headlines decoded",
+      "workshop": false,
+      "enabled": true,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M1/WDL_M1_S01_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M1/WDL_M1_S01_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "IMD: India Meteorological Department",
+        "url": "https://mausam.imd.gov.in/"
+      }
+    },
+    {
+      "num": 2,
+      "module": 1,
+      "title": "Rain is a volume; water units",
+      "hook": "One storm on your rooftop and your city",
+      "workshop": false,
+      "enabled": true,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M1/WDL_M1_S02_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M1/WDL_M1_S02_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "India-WRIS: reservoir and water data portal",
+        "url": "https://indiawris.gov.in/"
+      }
+    },
+    {
+      "num": 3,
+      "module": 1,
+      "title": "Reading a rain gauge record; time scales",
+      "hook": "IMD's 8:30 am rainfall day",
+      "workshop": false,
+      "enabled": true,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M1/WDL_M1_S03_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M1/WDL_M1_S03_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "IMD Pune: rainfall data and normals",
+        "url": "https://imdpune.gov.in/"
+      }
+    },
+    {
+      "num": 4,
+      "module": 1,
+      "title": "Reading a river gauge record",
+      "hook": "When a river crosses the danger mark",
+      "workshop": false,
+      "enabled": true,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M1/WDL_M1_S04_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M1/WDL_M1_S04_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "CWC flood forecasting portal",
+        "url": "https://ffs.india-water.gov.in/"
+      }
+    },
+    {
+      "num": 5,
+      "module": 1,
+      "title": "Workshop: My district in numbers",
+      "hook": "Lab 1 · quiz · capstone step 1",
+      "workshop": true,
+      "enabled": true,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Briefing",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Workshop",
+          "path": "notebooks/M1/WDL_M1_S05_workshop.ipynb"
+        }
+      ],
+      "submit": ""
+    },
+    {
+      "num": 6,
+      "module": 2,
+      "title": "India's water data ecosystem",
+      "hook": "Who measures India's water?",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M2/WDL_M2_S06_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M2/WDL_M2_S06_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 7,
+      "module": 2,
+      "title": "Stations, grids and satellites",
+      "hook": "Same storm, three different numbers",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M2/WDL_M2_S07_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M2/WDL_M2_S07_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 8,
+      "module": 2,
+      "title": "Downloading a rainfall dataset",
+      "hook": "Your district's rainfall, decades back",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M2/WDL_M2_S08_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M2/WDL_M2_S08_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 9,
+      "module": 2,
+      "title": "Missing values, gaps and errors",
+      "hook": "When a gauge goes quiet: the -999 problem",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M2/WDL_M2_S09_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M2/WDL_M2_S09_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 10,
+      "module": 2,
+      "title": "Workshop: Quality-check your district's data",
+      "hook": "Lab 2 · quiz · capstone step 2",
+      "workshop": true,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Briefing",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Workshop",
+          "path": "notebooks/M2/WDL_M2_S10_workshop.ipynb"
+        }
+      ],
+      "submit": ""
+    },
+    {
+      "num": 11,
+      "module": 3,
+      "title": "Totals, averages and the normal",
+      "hook": "What does a \"normal monsoon\" mean?",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M3/WDL_M3_S11_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M3/WDL_M3_S11_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 12,
+      "module": 3,
+      "title": "Anomalies: excess and deficit",
+      "hook": "Reading IMD's excess and deficit categories",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M3/WDL_M3_S12_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M3/WDL_M3_S12_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 13,
+      "module": 3,
+      "title": "Extremes and intensity",
+      "hook": "Heavy, very heavy, extremely heavy",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M3/WDL_M3_S13_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M3/WDL_M3_S13_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 14,
+      "module": 3,
+      "title": "Return periods made simple",
+      "hook": "Is a \"100-year storm\" really rare?",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M3/WDL_M3_S14_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M3/WDL_M3_S14_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 15,
+      "module": 3,
+      "title": "Workshop: Your district's rainfall profile",
+      "hook": "Lab 3 · quiz · capstone step 3",
+      "workshop": true,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Briefing",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Workshop",
+          "path": "notebooks/M3/WDL_M3_S15_workshop.ipynb"
+        }
+      ],
+      "submit": ""
+    },
+    {
+      "num": 16,
+      "module": 4,
+      "title": "Catchments and hydrographs",
+      "hook": "Where does your rain go?",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M4/WDL_M4_S16_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M4/WDL_M4_S16_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 17,
+      "module": 4,
+      "title": "From river level to river flow",
+      "hook": "Danger level vs discharge",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M4/WDL_M4_S17_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M4/WDL_M4_S17_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 18,
+      "module": 4,
+      "title": "Reservoirs and storage bulletins",
+      "hook": "Reading a reservoir level report",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M4/WDL_M4_S18_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M4/WDL_M4_S18_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 19,
+      "module": 4,
+      "title": "Floods: river, flash and urban",
+      "hook": "Why cities flood without a big river",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M4/WDL_M4_S19_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M4/WDL_M4_S19_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 20,
+      "module": 4,
+      "title": "Workshop: Reconstruct a flood event",
+      "hook": "Lab 4 · quiz · capstone step 4",
+      "workshop": true,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Briefing",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Workshop",
+          "path": "notebooks/M4/WDL_M4_S20_workshop.ipynb"
+        }
+      ],
+      "submit": ""
+    },
+    {
+      "num": 21,
+      "module": 5,
+      "title": "Trend vs variability",
+      "hook": "One wet year is not climate change",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M5/WDL_M5_S21_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M5/WDL_M5_S21_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 22,
+      "module": 5,
+      "title": "How many years are enough?",
+      "hook": "10 vs 30 vs 100 years of rainfall",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M5/WDL_M5_S22_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M5/WDL_M5_S22_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 23,
+      "module": 5,
+      "title": "Extremes, dry spells and droughts",
+      "hook": "Fewer rainy days, heavier bursts?",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M5/WDL_M5_S23_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M5/WDL_M5_S23_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 24,
+      "module": 5,
+      "title": "Reading climate claims critically",
+      "hook": "Fixing a misleading headline chart",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M5/WDL_M5_S24_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M5/WDL_M5_S24_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 25,
+      "module": 5,
+      "title": "Workshop: Test your district's trend",
+      "hook": "Lab 5 · quiz · capstone step 5",
+      "workshop": true,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Briefing",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Workshop",
+          "path": "notebooks/M5/WDL_M5_S25_workshop.ipynb"
+        }
+      ],
+      "submit": ""
+    },
+    {
+      "num": 26,
+      "module": 6,
+      "title": "Honest charts",
+      "hook": "Same data, two stories",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M6/WDL_M6_S26_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M6/WDL_M6_S26_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 27,
+      "module": 6,
+      "title": "Choosing the right chart",
+      "hook": "The right picture for rainfall",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M6/WDL_M6_S27_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M6/WDL_M6_S27_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 28,
+      "module": 6,
+      "title": "Building a dashboard",
+      "hook": "A one-page water story",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M6/WDL_M6_S28_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M6/WDL_M6_S28_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 29,
+      "module": 6,
+      "title": "Data stories and AI tools",
+      "hook": "Explaining water to a panchayat or a newspaper",
+      "workshop": false,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Concept",
+          "url": ""
+        },
+        {
+          "label": "Walkthrough",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Reading",
+          "path": "notebooks/M6/WDL_M6_S29_reading.ipynb"
+        },
+        {
+          "label": "Practice",
+          "path": "notebooks/M6/WDL_M6_S29_practice.ipynb"
+        }
+      ],
+      "reference": {
+        "label": "",
+        "url": ""
+      }
+    },
+    {
+      "num": 30,
+      "module": 6,
+      "title": "Capstone workshop and submission",
+      "hook": "My District's Water Story · peer review",
+      "workshop": true,
+      "enabled": false,
+      "sheet": "",
+      "videos": [
+        {
+          "label": "Briefing",
+          "url": ""
+        }
+      ],
+      "notebooks": [
+        {
+          "label": "Workshop",
+          "path": "notebooks/M6/WDL_M6_S30_workshop.ipynb"
+        }
+      ],
+      "submit": ""
+    }
+  ]
+}
