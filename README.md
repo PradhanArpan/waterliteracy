@@ -19,6 +19,10 @@ Colab notebooks, Google Sheet and reference.
 
 Session 5 of every module is a **workshop**: one step of the capstone, *My District's Water Story*, plus the module quiz on CuX.
 
+## Udemy edition
+
+A platform-neutral edition for Udemy lives in [`udemy/`](udemy/README.md): notebooks, workbooks, the curriculum with resource links, and the course image.
+
 ## Modules
 
 | Module | Sessions | Theme |
