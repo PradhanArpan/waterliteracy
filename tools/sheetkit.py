@@ -17,6 +17,11 @@ GRN = PatternFill("solid", fgColor="E2EFDA")
 thin = Side(style="thin", color="BFBFBF")
 BOX = Border(left=thin, right=thin, top=thin, bottom=thin)
 WRAP = Alignment(wrap_text=True, vertical="top")
+import os
+EDITION = os.environ.get("WDL_EDITION", "cux")
+SUBTITLE = ("Water Data Literacy: Rainfall, Floods and Climate Change · Udemy edition · Dr Arpan Pradhan" if EDITION == "udemy"
+            else "Hydroinformatics in a Changing Climate: Water Data Literacy for All · CuX, CHRIST (Deemed to be University)")
+OUTDIR = "udemy/sheets" if EDITION == "udemy" else "sheets"
 MAXR = 20000
 REGISTRY = []          # (sheet, answer cell, kind, answer) for automated testing          # formula ranges reach this row so learners can paste longer records
 
@@ -70,7 +75,7 @@ def start_sheet(wb, title, lines):
     ws = wb.active; ws.title = "Start here"
     widths(ws, {"A": 3, "B": 105})
     text(ws, "B2", title, TITLE)
-    text(ws, "B3", "Hydroinformatics in a Changing Climate: Water Data Literacy for All · CuX, CHRIST (Deemed to be University)", NOTE)
+    text(ws, "B3", SUBTITLE, NOTE)
     base = [("How to use this workbook", BOLD),
             ("This is the spreadsheet version of this module's practice activities. Same data, same questions and same answers as the Colab practice notebooks.", B),
             ("1. Go to File → Make a copy so you have your own version.", B),

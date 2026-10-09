@@ -523,6 +523,7 @@ def finish(wb, path):
     json.dump(reg, open("/tmp/wdl_registry.json", "w"))
     for s in wb.worksheets:
         s.sheet_view.showGridLines = s.title in ("Data", "Annual", "Messy record", "Three sources 2021", "Reservoir data")
+    path = path.replace("sheets/", OUTDIR + "/", 1); os.makedirs(OUTDIR, exist_ok=True)
     wb.save(path); print("saved", path)
 
 

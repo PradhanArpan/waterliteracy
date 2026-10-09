@@ -64,7 +64,9 @@ wb = Workbook()
 ws = wb.active; ws.title = "Start here"
 widths(ws, {"A": 3, "B": 100})
 text(ws, "B2", "Module 1 · The Water Cycle as Data — Practice workbook", TITLE)
-text(ws, "B3", "Hydroinformatics in a Changing Climate: Water Data Literacy for All · CuX, CHRIST (Deemed to be University)", NOTE)
+import os
+UDEMY = os.environ.get("WDL_EDITION") == "udemy"
+text(ws, "B3", "Water Data Literacy: Rainfall, Floods and Climate Change · Udemy edition · Dr Arpan Pradhan" if UDEMY else "Hydroinformatics in a Changing Climate: Water Data Literacy for All · CuX, CHRIST (Deemed to be University)", NOTE)
 lines = [
     ("How to use this workbook", BOLD),
     ("This is the spreadsheet version of the Module 1 practice activities. It matches the Colab practice notebooks: same data, same questions, same answers.", B),
@@ -243,7 +245,7 @@ for i, q in enumerate(labq):
     put(ws, f"B{r}", q, wrap=True); ws.merge_cells(f"C{r}:D{r}")
     put(ws, f"C{r}", None, INP, YEL, wrap=True); ws.row_dimensions[r].height = 42
 put(ws, "B25", "Card status", BOLD)
-put(ws, "C25", '=IF(C6="Example district","✗ Replace the example values with your own district",IF(COUNTA(C21:C23)<3,"✗ Answer all three Lab 1 questions","✓ Ready: upload this tab as PDF on CuX"))', BOLD)
+put(ws, "C25", '=IF(C6="Example district","✗ Replace the example values with your own district",IF(COUNTA(C21:C23)<3,"✗ Answer all three Lab 1 questions","✓ Ready: take a screenshot of this tab for Lab 1"))', BOLD)
 ws.merge_cells("C25:D25")
 check_style(ws, "C25:C25")
 bc = BarChart(); bc.type = "bar"; bc.title = "Rain received vs domestic need (MCM per year)"; bc.legend = None
@@ -256,5 +258,6 @@ ws.add_chart(bc, "B27")
 for s in wb.worksheets:
     s.sheet_view.showGridLines = s.title == "Data"
 wb.move_sheet("Data", offset=len(wb.sheetnames))
-wb.save("sheets/WDL_M1_practice.xlsx")
+os.makedirs("udemy/sheets" if UDEMY else "sheets", exist_ok=True)
+wb.save(("udemy/sheets" if UDEMY else "sheets") + "/WDL_M1_practice.xlsx")
 print("saved")
